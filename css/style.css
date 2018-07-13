@@ -1,20 +1,23 @@
-.vkpay.btn{
+.vkpay.btn {
   text-align: center;
-  margin:50px;
+  margin: 50px;
   background-color: #5181B8;
   line-height: 25px;
   min-width: 160px;
   font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
   padding: 7px 16px 8px;
   font-size: 12.5px;
-  color:#fff;
+  color: #fff;
   border-radius: 4px;
   display: inline-block;
+  cursor: pointer;
 }
-.vkpay.btn:hover{
+
+.vkpay.btn:hover {
   background-color: #5B88BD;
   text-decoration: none;
 }
+
 .vkpay:after {
   content: '';
   background-size: contain;
